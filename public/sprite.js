@@ -13,8 +13,8 @@ class Sprite {
   }
 
   setPx(){
-    this.element.style.top = this.coords[0] + "px";
-    this.element.style.left = this.coords[1] + "px";
+    this.element.style.top = this.coords[1] + "px";
+    this.element.style.left = this.coords[0] + "px";
   }
 
   setX(deltaX){
